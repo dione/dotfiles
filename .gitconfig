@@ -1,0 +1,18 @@
+[user]
+	name = Dominik Jarmułowicz
+	email = ...
+[alias]
+	st = status --short
+	ci = commit --all
+	di = diff --color
+	meld = difftool --no-prompt
+[diff]
+	tool = meld
+[credential]
+	helper = store
+[push]
+	default = current
+[url "git@github.com:dione/"]
+	insteadof = gh:
+[blame]
+	coloring = highlightRecent
